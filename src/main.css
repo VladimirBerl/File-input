@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bth-hover {
+    background-color: #f3f4f6;
+    border-color: #d0d5dc;
+    box-shadow: 0px 5px 8px 0px #00000005;
+  }
+  .bth-focus {
+    background-color: #e5e7eb;
+    border-color: #d0d5dc;
+    box-shadow: none;
+  }
+  .bth-disabled {
+    background-color: transparent;
+    color: #9ca3b0;
+  }
+  .disabled-text {
+    color: #9ca3b0;
+  }
+
+}
